@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Head -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>News App</title>
+    <link rel="icon" type="image/png" href="./img/NewsApp.png">
+
+    <meta name="theme-color" content="#f4623a">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/png" href="./img/NewsApp.png">
+    <link rel="apple-touch-icon" href="./img/NewsApp.png">
+    <link rel="apple-touch-startup-image" href="./img/NewsApp.png">
+    <link rel="manifest" href="./manifest.json">
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:wght@100" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:wght@100' rel='stylesheet' type='text/css'>
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
+</head>
+<!-- Head -->
+
+<body id="page-top">
+    <br>
+    <center>
+        <h1>Las mejores noticas del dia de hoy</h1>
+
+    </center>
+    <!-- Lugares -->
+    <section id="lugares">
+        <div class="container-fluid p-0">
+            <div class="row" style="text-align:center">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 col-sm-6" style="text-align:center">
+                    <br>
+                    <img class="img-fluid" src="img/noticias/noticia1.jpg" alt="Noticia 1">
+                    <br><br>
+                    <button name="btnNoticia1" class="btn-secondary btn-xl js-scroll-trigger" type="button" onClick="mostrar_noticia1()">
+                        Detuvieron en Canadá al general Eduardo León Trauwitz<i class='fas fa-chevron-down'></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Noticia 1 -->
+            <section class="page-section" id="noticia1" style="display:none;">
+                <div class="container">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea name="" id="" cols="120" rows="12">
+                                        El ex encargado de seguridad en Pemex fue arrestado por petición de la Fiscalía General de la República como implicado en el robo de hidrocarburos en México.
+                                        Este viernes 17 de diciembre se llevó a cabo el arresto del general brigadier, Eduardo León Trauwitz, en Canadá, por petición expresa de la Fiscalía General de la República (FGR), debido a las acusaciones que tiene por presunto robo de hidrocarburos y protección a los denominados huachicoleros en territorio mexicano.
+                                        Fuentes confirmaron a Infobae México que, quien fuera subdirector de Salvaguardia Estratégica de Petróleos Mexicanos (PEMEX) durante el gobierno de Enrique Peña Nieto, ya se encuentra detenido y a la espera de ser extraditado a México.
+                                        En un comunicado emitido por la FGR minutos después del reporte, se informó que León Trauwitz se encuentra bajo custodia canadiense y que el proceso de extradición ya está en marcha, por lo que su arribo a México podría darse en los próximos días luego de ser considerado como prófugo de la justicia.
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+            <!-- Noticia 1 -->
+            <br>
+
+            <div class="row" style="text-align:center">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 col-sm-6" style="text-align:center">
+                    <br>
+                    <img class="img-fluid" src="img/noticias/noticia2.jpg" alt="Noticia 2">
+                    <br><br>
+                    <button name="btnNoticia1" class="btn-secondary btn-xl js-scroll-trigger" type="button" onClick="mostrar_noticia2()">
+                        Aplazar consulta sobre revocación, “chicanada” del INE: AMLO <i class='fas fa-chevron-down'></i>
+                    </button>
+                </div>
+            </div>
+    </section>
+    <!-- Lugares -->
+
+    <!-- Noticia 2 -->
+    <section class="page-section" id="noticia2" style="display:none;">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea name="" id="" cols="120" rows="12">
+                            Villahermosa, Tab. Aunque el Instituto Nacional Electoral (INE) lo quiera o no, la Suprema Corte de Justicia de la Nación ya resolvió que debe llevarse a cabo la consulta de revocación de mandato y si hoy el Consejo General vota por aplazar su realización, “ya son chicanadas, tácticas dilatorias, parecen abogados huizacheros”, afirmó el presidente Andrés Manuel López Obrador.
+                            En su conferencia de prensa matutina, en el 37 batallón de infantería, cuestionó que “como diría el finado Juan Gabriel, en las vueltas que da la vida, los partidos políticos de oposición y los consejeros electorales que antes hablaban de la consulta representativa, de repente cambiaron por completo, porque no son auténticos demócratas, fingen serlo”.
+                            Si bien pidió esperar al resultado de la sesión de hoy en el INE, el mandatario expresó que todavía queda la instancia del Tribunal Electoral del Poder Judicial de la Federación y también la Corte que, recordó, de manera provisional ha resuelto que la consulta debe llevarse a cabo y eso “es lo más importante”.
+                            Lo demás, agregó, no deja de ser secundario: si el INE tiene o no recursos para realizarla, si instalará o no suficientes casillas, el tema de fondo es el precedente histórico de que el pueblo ejercerá su derecho a la revocación de mandato presidencial.
+                        </textarea>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- Noticia 2 -->
+
+    <br><br>
+
+    <div id="contentPlayer" style="text-align:center">
+        <div id="info">ℹ️ Para Grabar, mantenga presionado el boton del microfono.</div>
+        <div id="footerAudio" class="shadow">
+            <div id="playerAudio"><audio id="player" controls></audio></div>
+            <a id="buttonDownload" class="buttonAudio transition">
+                <p></p> <i class="fas fa-download"></i></a>
+            <div id="buttonMicrophone" class="buttonAudio transition">
+                <p></p> <i class="fas fa-microphone-alt"></i></div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/creative.js"></script>
+    <script src="js/funciones_buttons.js"></script>
+    <script src="https://kit.fontawesome.com/801633f78a.js" crossorigin="anonymous"></script>
+    <script src="./js/startSW.js"></script>
+    <script src="./js/voicerecorder.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+{
+    "name": "NewsApp",
+    "short_name": "News",
+    "description": "Welcome! Son bienvenidos al mejor sitio de internet para ver noticias y usted se encuentre informado.",
+    "background_color": "#42B5DB",
+    "theme_color": "#D9CE34",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [{
+            "src": "./img/icons/newicon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/newicon256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/newicon128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/newicon64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/newicon32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/icons/newicon16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}
